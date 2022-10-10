@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Registration Page</title>
+    </head>
+    <body>
+        <header>
+            <div>
+            <h1>Registration form for students</h1>
+            <br>
+            <p><h2>Please fill your information</h2></p>
+            </div>
+        </header>
+        <main>
+            <section>
+                <form action="" method="">
+                    <div>
+                        <label for="s_name">Student name</label>
+                        <input id="s_name" type="text" name="s_name" placeholder="Your name">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_birth">Date of birth</label>
+                        <input id="s_birth" type="date" name="s_birth">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_weight">Weight</label>
+                        <input id="s_weight" type="number" min="20" max="120" name="s_weight">
+                    </div>
+                    <br>
+                    <div>
+                        <P>Choose your gender:</P>
+                        <label for="s_male">Male </label>
+                        <input id="s_male" type="radio" name="gender" value="male">
+                    </div>
+                    <div>
+                        <label for="s_female">Female </label>
+                        <input id="s_female" type="radio" name="gender" value="female">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_email">Email</label>
+                        <input id="s_email" type="email" name="s_email" placeholder="Your formal Email">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_num">Phone number</label>
+                        <input id="s_num" type="tel" name="s_num" placeholder="Put your contact number">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_address">Choose your city</label>
+                        <select name="s_address" id="s_address">
+                            <option value="amman">Amman</option>
+                            <option value="aqaba">Aqaba</option>
+                            <option value="irbid">Irbid</option>
+                        </select>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_color">student's favorite color</label>
+                        <input id="s_color" type="color" name="s_color">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="s_cv">Upload your CV</label>
+                        <input id="s_cv" type="file" name="s_cv">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="agree">Do you agree to be contacted by your email?</label>
+                        <input id="agree" type="checkbox" name="contact_stu_email">
+                    </div>
+                    <br>
+                    <div>
+                        <button>Submit information</button>
+                    </div>
+                </form>
+            </section>
+            <br>
+            <hr>
+            <br>
+            <section>
+                <style>
+                    table, th, td {border: 1px solid black;}
+                </style>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Student name</th>
+                            <th>Date of birth</th>
+                            <th>Weight</th>
+                            <th>Gender </th>
+                            <th>Email</th>
+                            <th>Phone number</th>
+                            <th>City</th>
+                            <th>Student's favorite color</th>
+                            <th>Student CV</th>
+                            <th>Agree contact via Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Haneen Zayed</td>
+                            <td>30-11-1997</td>
+                            <td>50</td>
+                            <td>Female</td>
+                            <td>Haneen@gmail.com</td>
+                            <td>0786578921</td>
+                            <td>Amman</td>
+                            <td>Green</td>
+                            <td>File1</td>
+                            <td>Yes</td>
+                        </tr>
+                        <tr>
+                            <td>Nada Zayed</td>
+                            <td>1-12-2000</td>
+                            <td>45</td>
+                            <td>Fmale</td>
+                            <td>Nada@gmail.com</td>
+                            <td>0779584731264</td>
+                            <td>Irbid</td>
+                            <td>Red</td>
+                            <td>File2</td>
+                            <td>No</td>
+                        </tr>
+                        <tr>
+                            <td>Ahmad Zayed</td>
+                            <td>28-9-1999</td>
+                            <td>60</td>
+                            <td>Male</td>
+                            <td>Ahmad@gmail.com</td>
+                            <td>0795841236</td>
+                            <td>Aqaba</td>
+                            <td>Black</td>
+                            <td>File3</td>
+                            <td>Yes</td>
+                        </tr>
+                </table>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <div>
+            <br>
+        </div>
+    </footer>
+</html>
