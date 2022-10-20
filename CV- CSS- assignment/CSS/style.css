@@ -1,0 +1,28 @@
+body {
+   
+    margin: 0%;
+    padding: 10rem;
+    background-color: rgb(198, 207, 214);  
+}
+
+section {
+    border-bottom: 5px solid blue;
+}
+
+#image-name{
+    padding: 1em;
+    border-bottom: 5px solis blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        width: 10vm;
+        font-size: small;
+        background-color: brown;
+    }
+  }
