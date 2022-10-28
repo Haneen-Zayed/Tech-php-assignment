@@ -1,0 +1,43 @@
+
+header>nav>div>a>img {
+    width: 80px;
+}
+
+header>nav{
+    background-color: rgba(127, 192, 24, 0.582);
+    border-bottom: 2px solid;
+    border-color: rgba(52, 138, 12, 0.589);
+}
+
+#library-hero{
+    background-image: url(../images/library\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#library-hero>div{
+    background-color: white;
+}
+
+#library-hero>div form button{
+    background-color: transparent;
+    color: black;
+    margin-left: -7%;
+}
+
+#HTU-Books #card{
+    width: 100%;
+}
+
+.card img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    background-color: rgba(127, 192, 24, 0.582);
+    border-top: 2px solid;
+    border-color: rgba(52, 138, 12, 0.589);
+    height: 100px;
+}
