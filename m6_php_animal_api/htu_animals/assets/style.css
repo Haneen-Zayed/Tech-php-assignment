@@ -1,0 +1,12 @@
+.htu-card-wrapper .card {
+    width: 100%;
+}
+
+footer {
+    background-color: #333;
+    height: 3.5rem;
+}
+
+footer p {
+    color: #e8e8e8;
+}
